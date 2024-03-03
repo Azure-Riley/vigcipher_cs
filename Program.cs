@@ -9,11 +9,11 @@ class Program {
 
          switch (option){
             case 0:
-                normalToVig.encryptMsg();
+                vigenere.encryptMsg();
                 break;   
 
             default:
-                Console.WriteLine("Under development");
+                vigenere.decryptMsg();
                 break;   
          }
     }
